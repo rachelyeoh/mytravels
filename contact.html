@@ -15,44 +15,46 @@
         "Life is Either a daring adventure or nothing at all
       </blockquote>
     </header>
-    <form action="" method="POST">
-      <fieldset>
-        <legend>Let's connect</legend>
-        <label for="firstName">First name:</label>
+    <section>
+      <form action="" method="POST">
+        <fieldset>
+          <legend>Let's connect</legend>
+          <label for="firstName">First name:</label>
+          <br />
+          <input type="text" name="firstName" id="firstName" />
+          <br />
+          <label for="lastName">Last name:</label>
+          <br />
+          <input type="text" name="lastName" id="lastName" />
+          <br />
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Add a message here"
+          ></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
         <br />
-        <input type="text" name="firstName" id="firstName" />
         <br />
-        <label for="lastName">Last name:</label>
+        <label for="option">How did you hear about me?</label>
         <br />
-        <input type="text" name="lastName" id="lastName" />
+        <input type="radio" id="website" name="option" value="website" />
+        <label for="website">Website</label>
+        <br />
+        <input type="radio" id="friend" name="option" value="friend" />
+        <label for="friend">Friend</label>
+        <br />
+        <input type="radio" id="other" name="option" value="other" />
+        <label for="other">Other</label>
         <br />
         <br />
-        <textarea
-          name="message"
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Add a message here"
-        ></textarea>
-        <br />
-        <input type="submit" value="Submit" />
-      </fieldset>
-      <br />
-      <br />
-      <label for="option">How did you hear about me?</label>
-      <br />
-      <input type="radio" id="website" name="option" value="website" />
-      <label for="website">Website</label>
-      <br />
-      <input type="radio" id="friend" name="option" value="friend" />
-      <label for="friend">Friend</label>
-      <br />
-      <input type="radio" id="other" name="option" value="other" />
-      <label for="other">Other</label>
-      <br />
-      <br />
-      <input type="button" value="Submit" />
-    </form>
+        <input type="button" value="Submit" />
+      </form>
+    </section>
     <footer>
       <p>Copyright 2020. All rights reserved. Made with ♥</p>
     </footer>
